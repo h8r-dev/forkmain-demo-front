@@ -8,8 +8,8 @@ env:
   REGISTRY_REPO: h8r-dev
   IMAGE_NAME: h8r-dev/forkmain-demo-front
   ORG: h8r-dev
-  HELM_REPO: forkmain-demo-forkmain-deploy
-  APP_NAME: forkmain-demo
+  HELM_REPO: fm-demo-forkmain-deploy
+  APP_NAME: fm-demo
   SERVICE_NAME: front
 jobs:
   build-and-push-image:
