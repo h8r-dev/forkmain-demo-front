@@ -8,9 +8,9 @@ env:
   REGISTRY_REPO: h8r-dev
   IMAGE_NAME: h8r-dev/forkmain-demo-front
   ORG: h8r-dev
-  HELM_REPO: forkmain-demo-forkmain-deploy
-  APP_NAME: forkmain-demo
-  SERVICE_NAME: front
+  HELM_REPO: demo-forkmain-deploy
+  APP_NAME: demo
+  SERVICE_NAME: frontend
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
